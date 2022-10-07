@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    width: 10vw;
+    margin-top: 2.5vw;
+    margin-left: 5vw;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 7vw;
+    display: inline-flex;
+    justify-content: end;
+    list-style: none;
+    margin-left: -20vw;
+}
+
+.links {
+    font-weight: 700;
+    font-size: 1.4vw;
+    margin-top: 2.5vw;
+    padding-left: 2.5vw;
+    color: hsl(273, 4%, 51%);
+}
+
+li {
+    cursor: pointer;
+}
+
+.nav-btn {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin-left: 5vw;
+    background-color: white;
+    width: 10vw;
+    height: 3vw;
+}
+
+.container {
+    font-family: 'DM Serif Display', serif;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    height: 40vw;
+    font-size: 1.8vw;
+}
+
+.pattern {
+    position: absolute;
+}
+
+.pattern-right {
+    position: absolute;
+    margin-left: 68.9vw;
+    width: 30vw;
+}
+
+.intro-pattern {
+    position: absolute;
+    margin-top: -5vw;
+}
+
+.img-intro {
+    position: absolute;
+    width: 40vw;
+    margin-left: 55vw;
+    margin-top: 5vw;
+}
+
+.con-text {
+    padding-top: 10vw;
+    padding-left: 5vw;
+    width: 45vw;
+}
+
+.plans-btn {
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2vw;
+    width: 10vw;
+    height: 3vw;
+    border: solid white;
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container2 {
+    font-family: 'DM Serif Display', serif;
+    color: hsl(270, 9%, 17%);
+    font-weight: 200;
+    height: 40vw;
+    position: absolute;
+    margin-top: 20vw;
+    font-size: 1.8vw;
+}
+
+.title2 {
+    font-size: 5vw;
+    margin-left: 15vw;
+}
+
+.snappy {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5vw;
+    width: 30vw;
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+
+.affordable {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 30vw;
+    margin-top: -8.5vw;
+    margin-left: 35vw;
+}
+
+.People {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    width: 30vw;
+    margin-top: -8.5vw;
+    margin-left: 67vw;
+}
+
+.desc {
+    margin-top: 15vw;
+}
+
+.flash {
+    position: absolute;
+    margin-top: -8vw;
+    width: 7vw;
+}
+
+.prices {
+    position: absolute;
+    margin-top: -8vw;
+    width: 7vw;
+}
+
+.peoples {
+    position: absolute;
+    margin-top: -8vw;
+    width: 7vw;
+}
+
+.container3 {
+    padding-top: 5.5vw;
+    padding-left: 5vw;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.4vw;
+    width: 70vw;
+    height: 15vw;
+    margin-top: 60vw;
+    margin-left: 15vw;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+}
+
+.hww-btn {
+    font-family: 'Karla', sans-serif;
+    width: 15vw;
+    height: 5vw;
+    background: none;
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: -3.5vw;
+    margin-left: 45vw;
+    border: solid white;
+    cursor: pointer;
+}
+
+.pattern2 {
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: -5.1vw;
+    width: 25vw;
+}
+
+.container4 {
+    margin-top: 10vw;
+    height: 30vw;
+    font-size: 1.6vw;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.about {
+    margin-left: 5vw;
+    list-style: none;
+    font-weight: 700;
+}
+
+.about2 {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: -7.5vw;
+    list-style: none;
+    font-weight: 700;
+}
+
+.about3 {
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: -7.5vw;
+    list-style: none;
+    font-weight: 700;
+}
+
+.about4 {
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: -8vw;
+    list-style: none;
+    font-weight: 700;
+}
+
+.OC {
+    margin-left: 5vw;
+    margin-bottom: 1vw;
+    color: hsl(273, 4%, 51%);
+}
+
+.HM {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: -10.5vw;
+    color: hsl(273, 4%, 51%);
+}
+
+.C {
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: -10.5vw;
+    color: hsl(273, 4%, 51%);
+}
+
+.O {
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: -11vw;
+    color: hsl(273, 4%, 51%);
+}
+
+.btm-logo {
+    margin-left: 5vw;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    width: 10vw;
+}
+
+hr {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.btm-footer {
+    position: absolute;
+    margin-left: -25vw;
+}
+
+.icons {
+    position: absolute;
+    margin-top: -9vw;
+    margin-left: 16.5vw;
+    cursor: pointer;
+}
+
+.fb {
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 75vw;
+}
+
+.tw {
+    position: absolute;
+    margin-top: 5.2vw;
+    margin-left: 72vw;
+}
+
+.pint {
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 69vw;
+}
+
+.ig {
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 66vw;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and(max-width:950px) {
+    
+}
